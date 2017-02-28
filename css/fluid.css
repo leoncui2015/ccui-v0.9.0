@@ -1,0 +1,357 @@
+/* `Grid >> Global Fluid Layouts part
+----------------------------------------------------------------------------------------------------*/
+
+.row-fluid {
+	width: 100%;
+	*zoom: 1;
+}
+
+.row-fluid:before,
+.row-fluid:after {
+	display: table;
+	line-height: 0;
+	content: "";
+}
+
+.row-fluid:after {
+	clear: both;
+}
+
+.row-fluid .grid1,
+.row-fluid .grid2,
+.row-fluid .grid3,
+.row-fluid .grid4,
+.row-fluid .grid5,
+.row-fluid .grid6,
+.row-fluid .grid7,
+.row-fluid .grid8,
+.row-fluid .grid9,
+.row-fluid .grid10,
+.row-fluid .grid11,
+.row-fluid .grid12 {
+	float: left;
+	margin-left: 1.041666667%;
+	margin-right: 1.041666667%; 
+	*margin-left: 1.03%;
+	*margin-right: 1.03%; 
+}
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.row-fluid .alpha {
+	margin-left: 0;
+}
+
+.row-fluid .omega {
+	margin-right: 0;
+}
+
+.row-fluid .push1, .row-fluid .pull1,
+.row-fluid .push2, .row-fluid .pull2,
+.row-fluid .push3, .row-fluid .pull3,
+.row-fluid .push4, .row-fluid .pull4,
+.row-fluid .push5, .row-fluid .pull5,
+.row-fluid .push6, .row-fluid .pull6,
+.row-fluid .push7, .row-fluid .pull7,
+.row-fluid .push8, .row-fluid .pull8,
+.row-fluid .push9, .row-fluid .pull9,
+.row-fluid .push10, .row-fluid .pull10,
+.row-fluid .push11, .row-fluid .pull11 {
+	position: relative;
+}
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .row-fluid .grid1 {
+	width: 6.25%;
+}
+
+.container12 .row-fluid .grid2 {
+	width: 14.583333333%;
+}
+
+.container12 .row-fluid .grid3 {
+	width: 22.916666666%;
+}
+
+.container12 .row-fluid .grid4 {
+	width: 31.25%;
+}
+
+.container12 .row-fluid .grid5 {
+	width: 39.583333333%;
+}
+
+.container12 .row-fluid .grid6 {
+	width: 47.916666666%;
+}
+
+.container12 .row-fluid .grid7 {
+	width: 56.25%;
+}
+
+.container12 .row-fluid .grid8 {
+	width: 64.583333333%;
+}
+
+.container12 .row-fluid .grid9 {
+	width: 72.916666666%;
+}
+
+.container12 .row-fluid .grid10 {
+	width: 81.25%;
+}
+
+.container12 .row-fluid .grid11 {
+	width: 89.583333333%;
+}
+
+.container12 .row-fluid .grid12 {
+	width: 97.916666666%;
+}
+
+/* `Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .row-fluid .prefix1 {
+	padding-left: 8.333333333%;
+}
+
+.container12 .row-fluid .prefix2 {
+	padding-left: 16.666666666%;
+}
+
+.container12 .row-fluid .prefix3 {
+	padding-left: 25%;
+}
+
+.container12 .row-fluid .prefix4 {
+	padding-left: 33.333333333%;
+}
+
+.container12 .row-fluid .prefix5 {
+	padding-left: 41.666666666%;
+}
+
+.container12 .row-fluid .prefix6 {
+	padding-left: 50%;
+}
+
+.container12 .row-fluid .prefix7 {
+	padding-left: 58.333333333%;
+}
+
+.container12 .row-fluid .prefix8 {
+	padding-left: 66.666666666%;
+}
+
+.container12 .row-fluid .prefix9 {
+	padding-left: 75%;
+}
+
+.container12 .row-fluid .prefix10 {
+	padding-left: 83.333333333%;
+}
+
+.container12 .row-fluid .prefix11 {
+	padding-left: 91.666666666%;
+}
+
+/* `Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .row-fluid .suffix1 {
+	padding-right: 8.333333333%;
+}
+
+.container12 .row-fluid .suffix2 {
+	padding-right: 16.666666666%;
+}
+
+.container12 .row-fluid .suffix3 {
+	padding-right: 25%;
+}
+
+.container12 .row-fluid .suffix4 {
+	padding-right: 33.333333333%;
+}
+
+.container12 .row-fluid .suffix5 {
+	padding-right: 41.666666666%;
+}
+
+.container12 .row-fluid .suffix6 {
+	padding-right: 50%;
+}
+
+.container12 .row-fluid .suffix7 {
+	padding-right: 58.333333333%;
+}
+
+.container12 .row-fluid .suffix8 {
+	padding-right: 66.666666666%;
+}
+
+.container12 .row-fluid .suffix9 {
+	padding-right: 75%;
+}
+
+.container12 .row-fluid .suffix10 {
+	padding-right: 83.333333333%;
+}
+
+.container12 .row-fluid .suffix11 {
+	padding-right: 91.666666666%;
+
+}
+
+/* `Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .row-fluid .push1 {
+	left: 8.333333333%;
+}
+
+.container12 .row-fluid .push2 {
+	left: 16.666666666%;
+}
+
+.container12 .row-fluid .push3 {
+	left: 25%;
+}
+
+.container12 .row-fluid .push4 {
+	left: 33.333333333%;
+}
+
+.container12 .row-fluid .push5 {
+	left: 41.666666666%;
+}
+
+.container12 .row-fluid .push6 {
+	left: 50%;
+}
+
+.container12 .row-fluid .push7 {
+	left: 58.333333333%;
+}
+
+.container12 .row-fluid .push8 {
+	left: 66.666666666%;
+}
+
+.container12 .row-fluid .push9 {
+	left: 75%;
+}
+
+.container12 .row-fluid .push10 {
+	left: 83.333333333%;
+}
+
+.container12 .row-fluid .push11 {
+	left: 91.666666666%;
+}
+
+/* `Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .row-fluid .pull1 {
+	left: -8.333333333%;
+}
+
+.container12 .row-fluid .pull2 {
+	left: -16.666666666%;
+}
+
+.container12 .row-fluid .pull3 {
+	left: -25%;
+}
+
+.container12 .row-fluid .pull4 {
+	left: -33.333333333%;
+}
+
+.container12 .row-fluid .pull5 {
+	left: -41.666666666%;
+}
+
+.container12 .row-fluid .pull6 {
+	left: -50%;
+}
+
+.container12 .row-fluid .pull7 {
+	left: -58.333333333%;
+}
+
+.container12 .row-fluid .pull8 {
+	left: -66.666666666%;
+}
+
+.container12 .row-fluid .pull9 {
+	left: -75%;
+}
+
+.container12 .row-fluid .pull10 {
+	left: -83.333333333%;
+}
+
+.container12 .row-fluid .pull11 {
+	left: -91.666666666%;
+}
+
+/* Grid's width have no margin alpha omega pull push prefix and suffix */
+
+.row-fluid .grid-width10,
+.row-fluid .grid-width20,
+.row-fluid .grid-width30,
+.row-fluid .grid-width40,
+.row-fluid .grid-width50,
+.row-fluid .grid-width60,
+.row-fluid .grid-width70,
+.row-fluid .grid-width80,
+.row-fluid .grid-width90,
+.row-fluid .grid-width100 {
+	float: left;
+}
+
+.container12 .row-fluid .grid-width10 {
+	width: 10%;
+}
+
+.container12 .row-fluid .grid-width20 {
+	width: 20%;
+}
+
+.container12 .row-fluid .grid-width30 {
+	width: 30%;
+}
+
+.container12 .row-fluid .grid-width40 {
+	width: 40%;
+}
+
+.container12 .row-fluid .grid-width50 {
+	width: 50%;
+}
+
+.container12 .row-fluid .grid-width60 {
+	width: 60%;
+}
+
+.container12 .row-fluid .grid-width70 {
+	width: 70%;
+}
+
+.container12 .row-fluid .grid-width80 {
+	width: 80%;
+}
+
+.container12 .row-fluid .grid-width90 {
+	width: 90%;
+}
+
+.container12 .row-fluid .grid-width100 {
+	width: 100%;
+}

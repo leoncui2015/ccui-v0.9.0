@@ -1,0 +1,147 @@
+/* `Custom HTML CSS ~ Color CSS part-1
+----------------------------------------------------------------------------------------------------*/
+body {	
+	background-color: #ffffff;
+	color: #666666;
+}
+a {
+	color: #571fd9;
+}
+a:hover {
+	color: #ed046d;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color:#000;
+}
+
+/* -webkit- */
+::selection {
+  background-color: #571fd9;
+  color: #ffffff;
+}
+/* fireforx */
+::-moz-selection {
+  background-color: #571fd9;
+  color: #ffffff;
+}
+
+/* base background color */
+
+.bc000 {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.bc222 {
+	background-color: #222222;
+	color: #ffffff;
+}
+
+.bc333 {
+	background-color: #333333;
+	color: #ffffff;
+}
+
+.bc555 {
+	background-color: #555555;
+	color: #ffffff;
+}
+
+.bc777 {
+	background-color: #777777;
+	color: #ffffff;
+}
+
+.bc999 {
+	background-color: #999999;
+	color: #ffffff;
+}
+
+.bcaaa {
+	background-color: #aaaaaa;
+	color: #ffffff;
+}
+
+.bcccc {
+	background-color: #cccccc;
+	color: #ffffff;
+}
+
+.bcddd {
+	background-color: #dddddd;
+	color: #ffffff;
+}
+
+.bceee {
+	background-color: #eeeeee;
+	color: #ffffff;
+}
+
+.bceee {
+	background-color: #eeeeee;
+	color: #ffffff;
+}
+
+.bcfff {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.bc-primary {
+	background-color: #3498db;
+	color: #ffffff;
+}
+
+.bc-success {
+	background-color: #2ecc71;
+	color: #ffffff;
+}
+
+.bc-info {
+	background-color: #24cabc;
+	color: #ffffff;
+}
+
+.bc-warning {
+	background-color: #f39c12;
+	color: #ffffff;
+}
+
+.bc-danger {
+	background-color: #e74c3c;
+	color: #ffffff;
+}
+
+/* base color */
+
+.color-red{
+	color: #e74c3c;
+}
+
+.color-orange{
+	color: #f39c12;
+}
+
+.color-yellow{
+	color: #fff000;
+}
+
+.color-green{
+	color: #2ecc71;
+}
+
+.color-cyan{
+	color: #24cabc;
+}
+
+.color-blue{
+	color: #3498db;
+}
+
+.color-purple{
+	color: #ae81ff;
+}
+
+/* `Custom HTML CSS ~ Color CSS part-1 end
+----------------------------------------------------------------------------------------------------*/

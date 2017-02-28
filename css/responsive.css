@@ -1,0 +1,929 @@
+/* `Responsive System ~ All device CSS part-1
+----------------------------------------------------------------------------------------------------*/
+
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8,
+.grid9,
+.grid10,
+.grid11,
+.grid12 {
+	*display: inline; /* For IE6 IE7 width overflow hack */ 
+}
+
+.responsive-img {
+	width: 100%;
+	max-width: 100%;	/* Image responsive */
+}
+
+/* `Responsive System ~ All device CSS part-1 end
+----------------------------------------------------------------------------------------------------*/
+
+/* `Responsive System ~ Large desktop (width > 1200px) CSS part-2 
+----------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+body {
+	min-width: 1200px;
+}
+
+.desktop-lg-hidden {
+	display: none;
+}
+
+.desktop-lg-show {
+	display: block;
+}
+
+/* `Container
+----------------------------------------------------------------------------------------------------*/
+
+.container12 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+}
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8,
+.grid9,
+.grid10,
+.grid11,
+.grid12 {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.push1, .pull1,
+.push2, .pull2,
+.push3, .pull3,
+.push4, .pull4,
+.push5, .pull5,
+.push6, .pull6,
+.push7, .pull7,
+.push8, .pull8,
+.push9, .pull9,
+.push10, .pull10,
+.push11, .pull11 {
+	position: relative;
+}
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .grid1 {
+	width: 60px;
+}
+
+.container12 .grid2 {
+	width: 160px;
+}
+
+.container12 .grid3 {
+	width: 260px;
+}
+
+.container12 .grid4 {
+	width: 360px;
+}
+
+.container12 .grid5 {
+	width: 460px;
+}
+
+.container12 .grid6 {
+	width: 560px;
+}
+
+.container12 .grid7 {
+	width: 660px;
+}
+
+.container12 .grid8 {
+	width: 760px;
+}
+
+.container12 .grid9 {
+	width: 860px;
+}
+
+.container12 .grid10 {
+	width: 960px;
+}
+
+.container12 .grid11 {
+	width: 1060px;
+}
+
+.container12 .grid12 {
+	width: 1160px;
+}
+
+/* `Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .prefix1 {
+	padding-left: 100px;
+}
+
+.container12 .prefix2 {
+	padding-left: 200px;
+}
+
+.container12 .prefix3 {
+	padding-left: 300px;
+}
+
+.container12 .prefix4 {
+	padding-left: 400px;
+}
+
+.container12 .prefix5 {
+	padding-left: 500px;
+}
+
+.container12 .prefix6 {
+	padding-left: 600px;
+}
+
+.container12 .prefix7 {
+	padding-left: 700px;
+}
+
+.container12 .prefix8 {
+	padding-left: 800px;
+}
+
+.container12 .prefix9 {
+	padding-left: 900px;
+}
+
+.container12 .prefix10 {
+	padding-left: 1000px;
+}
+
+.container12 .prefix11 {
+	padding-left: 1100px;
+}
+
+/* `Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .suffix1 {
+	padding-right: 100px;
+}
+
+.container12 .suffix2 {
+	padding-right: 200px;
+}
+
+.container12 .suffix3 {
+	padding-right: 300px;
+}
+
+.container12 .suffix4 {
+	padding-right: 400px;
+}
+
+.container12 .suffix5 {
+	padding-right: 500px;
+}
+
+.container12 .suffix6 {
+	padding-right: 600px;
+}
+
+.container12 .suffix7 {
+	padding-right: 700px;
+}
+
+.container12 .suffix8 {
+	padding-right: 800px;
+}
+
+.container12 .suffix9 {
+	padding-right: 900px;
+}
+
+.container12 .suffix10 {
+	padding-right: 1000px;
+}
+
+.container12 .suffix11 {
+	padding-right: 1100px;
+}
+
+/* `Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .push1 {
+	left: 100px;
+}
+
+.container12 .push2 {
+	left: 200px;
+}
+
+.container12 .push3 {
+	left: 300px;
+}
+
+.container12 .push4 {
+	left: 400px;
+}
+
+.container12 .push5 {
+	left: 500px;
+}
+
+.container12 .push6 {
+	left: 600px;
+}
+
+.container12 .push7 {
+	left: 700px;
+}
+
+.container12 .push8 {
+	left: 800px;
+}
+
+.container12 .push9 {
+	left: 900px;
+}
+
+.container12 .push10 {
+	left: 1000px;
+}
+
+.container12 .push11 {
+	left: 1100px;
+}
+
+/* `Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .pull1 {
+	left: -100px;
+}
+
+.container12 .pull2 {
+	left: -200px;
+}
+
+.container12 .pull3 {
+	left: -300px;
+}
+
+.container12 .pull4 {
+	left: -400px;
+}
+
+.container12 .pull5 {
+	left: -500px;
+}
+
+.container12 .pull6 {
+	left: -600px;
+}
+
+.container12 .pull7 {
+	left: -700px;
+}
+
+.container12 .pull8 {
+	left: -800px;
+}
+
+.container12 .pull9 {
+	left: -900px;
+}
+
+.container12 .pull10 {
+	left: -1000px;
+}
+
+.container12 .pull11 {
+	left: -1100px;
+}
+
+}
+
+/* `Responsive System ~ Large desktop (width > 1200px) CSS part-2 end
+----------------------------------------------------------------------------------------------------*/
+
+/*
+   `Responsive System ~ Desktop (979px < width < 1200px) CSS part-3 in Grid.CSS for the default grid system
+*/
+
+/* `Responsive System ~ Tablet and Pad ( width < 980px) CSS part-4
+----------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 979px) {
+body {
+
+}
+
+.tablet-hidden {
+	display: none;
+}
+
+.tablet-show {
+	display: block;
+}
+
+/* `Container
+----------------------------------------------------------------------------------------------------*/
+
+.container12 {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8,
+.grid9,
+.grid10,
+.grid11,
+.grid12,
+.tablet1,
+.tablet2,
+.tablet3,
+.tablet4,
+.tablet5,
+.tablet6,
+.tablet7,
+.tablet8,
+.tablet9,
+.tablet10,
+.tablet11,
+.tablet12 {
+	float: left;
+	margin-left: 1.041666667%;
+	margin-right: 1.041666667%; 
+}
+
+.push1, .pull1,
+.push2, .pull2,
+.push3, .pull3,
+.push4, .pull4,
+.push5, .pull5,
+.push6, .pull6,
+.push7, .pull7,
+.push8, .pull8,
+.push9, .pull9,
+.push10, .pull10,
+.push11, .pull11 {
+	position: relative;
+}
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .grid1,
+.container12 .tablet1 {
+	width: 6.25%;
+}
+
+.container12 .grid2,
+.container12 .tablet2 {
+	width: 14.583333333%;
+}
+
+.container12 .grid3,
+.container12 .tablet3 {
+	width: 22.916666666%;
+}
+
+.container12 .grid4,
+.container12 .tablet4 {
+	width: 31.25%;
+}
+
+.container12 .grid5,
+.container12 .tablet5 {
+	width: 39.583333333%;
+}
+
+.container12 .grid6,
+.container12 .tablet6 {
+	width: 47.916666666%;
+}
+
+.container12 .grid7,
+.container12 .tablet7 {
+	width: 56.25%;
+}
+
+.container12 .grid8,
+.container12 .tablet8 {
+	width: 63.265306122%;
+}
+
+.container12 .grid9,
+.container12 .tablet9 {
+	width: 72.916666666%;
+}
+
+.container12 .grid10,
+.container12 .tablet10 {
+	width: 81.25%;
+}
+
+.container12 .grid11,
+.container12 .tablet11 {
+	width: 89.583333333%;
+}
+
+.container12 .grid12,
+.container12 .tablet12 {
+	width: 97.916666666%;
+}
+
+/* `Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .prefix1 {
+	padding-left: 8.333333333%;
+}
+
+.container12 .prefix2 {
+	padding-left: 16.666666666%;
+}
+
+.container12 .prefix3 {
+	padding-left: 25%;
+}
+
+.container12 .prefix4 {
+	padding-left: 33.333333333%;
+}
+
+.container12 .prefix5 {
+	padding-left: 41.666666666%;
+}
+
+.container12 .prefix6 {
+	padding-left: 50%;
+}
+
+.container12 .prefix7 {
+	padding-left: 58.333333333%;
+}
+
+.container12 .prefix8 {
+	padding-left: 66.666666666%;
+}
+
+.container12 .prefix9 {
+	padding-left: 75%;
+}
+
+.container12 .prefix10 {
+	padding-left: 83.333333333%;
+}
+
+.container12 .prefix11 {
+	padding-left: 91.666666666%;
+}
+
+/* `Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .suffix1 {
+	padding-right: 8.333333333%;
+}
+
+.container12 .suffix2 {
+	padding-right: 16.666666666%;
+}
+
+.container12 .suffix3 {
+	padding-right: 25%;
+}
+
+.container12 .suffix4 {
+	padding-right: 33.333333333%;
+}
+
+.container12 .suffix5 {
+	padding-right: 41.666666666%;
+}
+
+.container12 .suffix6 {
+	padding-right: 50%;
+}
+
+.container12 .suffix7 {
+	padding-right: 58.333333333%;
+}
+
+.container12 .suffix8 {
+	padding-right: 66.666666666%;
+}
+
+.container12 .suffix9 {
+	padding-right: 75%;
+}
+
+.container12 .suffix10 {
+	padding-right: 83.333333333%;
+}
+
+.container12 .suffix11 {
+	padding-right: 91.666666666%;
+
+}
+
+/* `Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .push1 {
+	left: 8.333333333%;
+}
+
+.container12 .push2 {
+	left: 16.666666666%;
+}
+
+.container12 .push3 {
+	left: 25%;
+}
+
+.container12 .push4 {
+	left: 33.333333333%;
+}
+
+.container12 .push5 {
+	left: 41.666666666%;
+}
+
+.container12 .push6 {
+	left: 50%;
+}
+
+.container12 .push7 {
+	left: 58.333333333%;
+}
+
+.container12 .push8 {
+	left: 66.666666666%;
+}
+
+.container12 .push9 {
+	left: 75%;
+}
+
+.container12 .push10 {
+	left: 83.333333333%;
+}
+
+.container12 .push11 {
+	left: 91.666666666%;
+}
+
+/* `Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .pull1 {
+	left: -8.333333333%;
+}
+
+.container12 .pull2 {
+	left: -16.666666666%;
+}
+
+.container12 .pull3 {
+	left: -25%;
+}
+
+.container12 .pull4 {
+	left: -33.333333333%;
+}
+
+.container12 .pull5 {
+	left: -41.666666666%;
+}
+
+.container12 .pull6 {
+	left: -50%;
+}
+
+.container12 .pull7 {
+	left: -58.333333333%;
+}
+
+.container12 .pull8 {
+	left: -66.666666666%;
+}
+
+.container12 .pull9 {
+	left: -75%;
+}
+
+.container12 .pull10 {
+	left: -83.333333333%;
+}
+
+.container12 .pull11 {
+	left: -91.666666666%;
+}
+
+}
+
+/* `Responsive System ~ Tablet and Pad ( width < 980px) CSS part-4 end
+----------------------------------------------------------------------------------------------------*/
+
+/* `Responsive System ~ Mobile (width < 737px) CSS part-5
+----------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 737px) {
+body {
+	width: auto; 
+	min-width: 0;
+	display: block;
+}
+
+.mobile-hidden {
+	display: none;
+}
+
+.mobile-show {
+	display: block;
+}
+
+/* `Container
+----------------------------------------------------------------------------------------------------*/
+
+.container12 {
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	min-width: 0;
+}
+
+/* `Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid1,
+.grid2,
+.grid3,
+.grid4,
+.grid5,
+.grid6,
+.grid7,
+.grid8,
+.grid9,
+.grid10,
+.grid11,
+.grid12 {
+	float: none;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+/* `Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/* `Grid >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .grid1,
+.container12 .grid2,
+.container12 .grid3,
+.container12 .grid4,
+.container12 .grid5,
+.container12 .grid6,
+.container12 .grid7,
+.container12 .grid8,
+.container12 .grid9,
+.container12 .grid10,
+.container12 .grid11,
+.container12 .grid12 {
+	width: auto; /* Use flow layout one column a line*/
+	min-width: 0;
+	display: block;
+}
+
+/* `Prefix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .prefix1,
+.container12 .prefix2,
+.container12 .prefix3,
+.container12 .prefix4,
+.container12 .prefix5,
+.container12 .prefix6,
+.container12 .prefix7,
+.container12 .prefix8,
+.container12 .prefix9,
+.container12 .prefix10,
+.container12 .prefix11 {
+	padding-left: 0;
+}
+
+/* `Suffix Extra Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .suffix1,
+.container12 .suffix2,
+.container12 .suffix3,
+.container12 .suffix4,
+.container12 .suffix5,
+.container12 .suffix6,
+.container12 .suffix7,
+.container12 .suffix8,
+.container12 .suffix9,
+.container12 .suffix10,
+.container12 .suffix11 {
+	padding-right: 0;
+
+}
+
+/* `Push Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .push1,
+.container12 .push2,
+.container12 .push3,
+.container12 .push4,
+.container12 .push5,
+.container12 .push6,
+.container12 .push7,
+.container12 .push8,
+.container12 .push9,
+.container12 .push10,
+.container12 .push11 {
+	left: auto;
+}
+
+/* `Pull Space >> 12 Columns
+----------------------------------------------------------------------------------------------------*/
+
+.container12 .pull1,
+.container12 .pull2,
+.container12 .pull3,
+.container12 .pull4,
+.container12 .pull5,
+.container12 .pull6,
+.container12 .pull7,
+.container12 .pull8,
+.container12 .pull9,
+.container12 .pull10,
+.container12 .pull11 {
+	left: auto;
+}
+
+/* For fluid in responsive */
+
+.row-fluid .grid1,
+.row-fluid .grid2,
+.row-fluid .grid3,
+.row-fluid .grid4,
+.row-fluid .grid5,
+.row-fluid .grid6,
+.row-fluid .grid7,
+.row-fluid .grid8,
+.row-fluid .grid9,
+.row-fluid .grid10,
+.row-fluid .grid11,
+.row-fluid .grid12 {
+	float: none;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.container12 .row-fluid .grid1,
+.container12 .row-fluid .grid2,
+.container12 .row-fluid .grid3,
+.container12 .row-fluid .grid4,
+.container12 .row-fluid .grid5,
+.container12 .row-fluid .grid6,
+.container12 .row-fluid .grid7,
+.container12 .row-fluid .grid8,
+.container12 .row-fluid .grid9,
+.container12 .row-fluid .grid10,
+.container12 .row-fluid .grid11,
+.container12 .row-fluid .grid12 {
+	width: auto; /* Use flow layout one column a line*/
+	min-width: 0;
+	display: block;
+}
+
+.container12 .row-fluid .prefix1,
+.container12 .row-fluid .prefix2,
+.container12 .row-fluid .prefix3,
+.container12 .row-fluid .prefix4,
+.container12 .row-fluid .prefix5,
+.container12 .row-fluid .prefix6,
+.container12 .row-fluid .prefix7,
+.container12 .row-fluid .prefix8,
+.container12 .row-fluid .prefix9,
+.container12 .row-fluid .prefix10,
+.container12 .row-fluid .prefix11 {
+	padding-left: 0;
+}
+
+.container12 .row-fluid .suffix1,
+.container12 .row-fluid .suffix2,
+.container12 .row-fluid .suffix3,
+.container12 .row-fluid .suffix4,
+.container12 .row-fluid .suffix5,
+.container12 .row-fluid .suffix6,
+.container12 .row-fluid .suffix7,
+.container12 .row-fluid .suffix8,
+.container12 .row-fluid .suffix9,
+.container12 .row-fluid .suffix10,
+.container12 .row-fluid .suffix11 {
+	padding-right: 0;
+
+}
+
+.container12 .row-fluid .push1,
+.container12 .row-fluid .push2,
+.container12 .row-fluid .push3,
+.container12 .row-fluid .push4,
+.container12 .row-fluid .push5,
+.container12 .row-fluid .push6,
+.container12 .row-fluid .push7,
+.container12 .row-fluid .push8,
+.container12 .row-fluid .push9,
+.container12 .row-fluid .push10,
+.container12 .row-fluid .push11 {
+	left: auto;
+}
+
+.container12 .row-fluid .pull1,
+.container12 .row-fluid .pull2,
+.container12 .row-fluid .pull3,
+.container12 .row-fluid .pull4,
+.container12 .row-fluid .pull5,
+.container12 .row-fluid .pull6,
+.container12 .row-fluid .pull7,
+.container12 .row-fluid .pull8,
+.container12 .row-fluid .pull9,
+.container12 .row-fluid .pull10,
+.container12 .row-fluid .pull11 {
+	left: auto;
+}
+
+
+}
+
+/* `Responsive System ~ Mobile (width < 481px) CSS part-5 end
+----------------------------------------------------------------------------------------------------*/

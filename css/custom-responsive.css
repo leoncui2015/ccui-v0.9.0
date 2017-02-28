@@ -1,0 +1,229 @@
+/* `Responsive System ~ Large desktop (width > 1200px) CSS part
+----------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+
+}
+
+/* `Responsive System ~ Large desktop (width > 1200px) CSS part end
+----------------------------------------------------------------------------------------------------*/
+
+
+/* `Responsive System ~ Tablet and Pad ( width < 980px) CSS 
+----------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 979px) {
+
+/* home part */
+
+.head-nav{
+	height: auto;
+}
+
+.head-nav .logo{
+	text-align: center;
+}
+
+.head-nav nav.text-right{
+	text-align: center;
+}
+
+.home-banner{
+	height: auto;
+	padding-bottom: 60px;
+}
+
+.home-banner .banner-img{
+	margin-top: 40px;
+}
+
+.home-banner .banner-img.text-right{
+	text-align: center;
+}
+
+.home-banner .suffix2{
+	padding-right: 0;
+}
+
+.home-banner .banner-txt{
+	margin-top: 40px;
+}
+
+footer{
+	text-align: center;
+}
+
+footer .foot-nav{
+	text-align: center;
+}
+
+/* page part */
+
+.page-main .content-main{
+	padding-left: 20px;
+}
+
+}
+
+/* `Responsive System ~ Tablet and Pad ( width < 980px) CSS end
+----------------------------------------------------------------------------------------------------*/
+
+
+/* `Responsive System ~ Mobile (width < 737px) CSS part 
+----------------------------------------------------------------------------------------------------*/
+
+@media (max-width: 736px) {
+
+/* Nav menu */
+
+.mobile-nav {
+	display: block;
+	background:none;
+	height:auto; /* For background of the mobile menu */
+}
+
+.mobile-nav .mobile-nav-bg{
+	display:inherit;
+	height:40px;
+	background:#4600b0 url(../images/logo.png) 10px 7px no-repeat;
+	top:0;
+	position:fixed;
+	z-index:999;
+	width:100%;
+}
+
+.mobile-nav .toggle-btn{
+	display:inline-block; /* Show button */
+	font-size:15px;
+	text-decoration:none;
+	color:#fff;
+	position:fixed;
+	z-index:9999;
+	right:0px;
+	top:0px;
+}
+
+.mobile-nav i{
+	font-size: 21px;
+	margin: 9px 12px 0 0;
+	background: none;
+}
+
+#mobile-nav-menu{
+	float:none;
+	margin-top:0px;
+	top:0;
+	height:40px;
+	z-index:9999;
+}
+
+#mobile-nav-menu{
+	display:none; /* Hidden the nav at the first */
+}
+
+#mobile-nav-menu li{
+	float:inherit; /* Desktop menu */
+}
+
+#mobile-nav-menu li, #mobile-nav-menu li a{
+	display:inline-block;
+	text-decoration:none;
+	font-size: 13px;
+}
+
+#mobile-nav-menu li a{
+	display:inherit;
+	width:inherit;
+	height:inherit;
+	line-height:inherit;
+}
+
+#mobile-nav-menu .close{
+	display:none; /* Hidden close button */
+}
+
+#mobile-nav-menu:target .close{
+	display:inline-block; /* Show the button is closed when the nav is active */
+}
+
+#mobile-nav-menu:target{
+	display:block; /* The style of the nav when the nav is active */
+	position:absolute;
+	top:40px;
+	padding-top:0;
+	width:100%;
+}
+
+#mobile-nav-menu:target ul{
+	background:#4600b0; /* The ul tag when nav is active */
+}
+
+#mobile-nav-menu:target li{
+	display:block; /* The li and a when the nav is active */
+	text-align:left;
+	margin:0;
+	text-align:center;
+}
+
+#mobile-nav-menu:target li a{
+	display:block; /* The li and a when the nav is active */
+	color:#fff;
+	text-align:left;
+	margin:0;
+	padding:10px 0;
+	text-align:center;
+}
+
+#mobile-nav-menu:target li a:hover{
+	background:#7440c4; /* The style of a when it is hover  */
+}
+
+/* home part */
+
+.home-friend {
+	padding-left: 20px;
+	padding-right: 20px; 
+}
+
+footer{
+	padding-left:20px;
+	padding-right:20px;
+	text-align: center;
+}
+
+footer .foot-nav{
+	text-align: center;
+}
+
+/* page part */
+
+.page-main{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.page-main .content-main{
+	border: none;
+	padding-left: 0;
+}
+
+/* nav part */
+
+.head-nav2 .logo2{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.nav-menu{
+	float: none;
+	text-align: center;
+}
+
+.sub-menu{
+	text-align: left;
+}
+
+}
+
+/* `Responsive System ~ Mobile (width < 737px) CSS part end
+----------------------------------------------------------------------------------------------------*/

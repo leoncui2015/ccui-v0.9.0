@@ -1,0 +1,60 @@
+/* `Header
+----------------------------------------------------------------------------------------------------*/
+
+/* nav part */
+
+.head-nav{
+	height: 75px;
+	background: #4600b0;
+}
+
+.head-nav .logo{
+	margin-top: 23px;
+}
+
+.head-nav nav a{
+	font-size: 16px;
+	color: #fff;
+	line-height: 75px;
+	margin: 0 35px;
+}
+
+.head-nav nav a:hover{
+	color: #e1ceff;
+}
+
+.mobile-nav{
+	display: none;
+}
+
+/* `Footer 
+----------------------------------------------------------------------------------------------------*/
+
+footer {
+	padding: 25px 0;
+	line-height: 30px;
+	background: #f7f7f7;
+	border-top: 1px solid #dfdfdf; 
+}
+
+footer .foot-nav{
+	text-align: right;
+	color: #999;
+}
+
+footer .foot-nav a{
+	font-size: 14px;
+	color: #333;
+	margin: 0 8px;
+}
+
+footer .foot-nav a:hover{
+	color: #666;
+}
+
+/* `Sidebar Nav
+----------------------------------------------------------------------------------------------------*/
+
+.side-nav {
+
+}
